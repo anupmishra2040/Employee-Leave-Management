@@ -15,7 +15,8 @@ This application allows employees to request leave and enables admins to manage 
 
 ### 🔐 Admin Login
 
-<img width="1440" height="900" alt="Screenshot 2026-04-27 at 1 55 08 AM" src="https://github.com/user-attachments/assets/abe33ea2-383c-41a6-ae75-d5d142f9a1ec" />
+<img width="1440" height="900" alt="Screenshot 2026-04-27 at 1 55 15 AM" src="https://github.com/user-attachments/assets/0ab29043-d934-40de-b421-8044c564fc16" />
+
 
 
 ### 📊 Dashboard
