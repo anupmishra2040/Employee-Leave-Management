@@ -1,59 +1,149 @@
-# EmployeLeaveManagement
+# 🧑‍💼 Employee Leave Management System
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+A full-featured Employee Leave Management System built using Angular.
+This application allows employees to request leave and enables admins to manage and track requests efficiently.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Live Demo
+
+*(Add your deployed link here later — Netlify / Vercel / Firebase)*
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Admin Login
+
+<img width="1440" height="900" alt="Screenshot 2026-04-27 at 1 55 08 AM" src="https://github.com/user-attachments/assets/abe33ea2-383c-41a6-ae75-d5d142f9a1ec" />
+
+
+### 📊 Dashboard
+
+<img width="1440" height="900" alt="Screenshot 2026-04-27 at 1 55 22 AM" src="https://github.com/user-attachments/assets/3c019ec7-bac7-4fc7-ab7d-ec10aeb3518c" />
+
+
+### 📋 Leave Management
+
+<img width="1440" height="900" alt="Screenshot 2026-04-27 at 1 54 59 AM" src="https://github.com/user-attachments/assets/63a2e346-f94f-41c1-8f58-5d7853182cc5" />
+
+
+---
+
+## ✨ Features
+
+* 📝 Apply for leave (Employee side)
+* ✅ Approve / ❌ Reject leave (Admin side)
+* 📊 Dashboard with leave status tracking
+* 🔄 Real-time UI updates using Angular
+* 🧾 Form validation using Reactive Forms
+* 📦 REST API integration (JSON Server)
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Angular (Latest)
+* **Language:** TypeScript
+* **Styling:** HTML, CSS
+* **API:** JSON Server (Mock Backend)
+* **State/data Handling:** Angular Services + HttpClient
+
+---
+
+## 📂 Project Structure
 
 ```bash
+src/
+ ├── app/
+ │   ├── components/
+ │   │   ├── admin/
+ │   │   ├── dashboard/
+ │   │   ├── admin-login/
+ │   │   └── login/
+ │   ├── services/
+ │   ├── models/
+ │   └── app.config.ts
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/anupmishra2040/Employee-Leave-Management.git
+cd Employee-Leave-Management
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Open:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
+
+## 🔌 Backend Setup (JSON Server)
 
 ```bash
-ng generate --help
+npm install -g json-server
 ```
 
-## Building
+Create `db.json`:
 
-To build the project run:
+```json
+{
+  "employees": []
+}
+```
+
+Run server:
 
 ```bash
-ng build
+json-server --watch db.json --port 3000
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 📊 How It Works
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+* Employee submits leave request
+* Data is stored in JSON server
+* Admin views all requests
+* Admin updates status (Approved / Rejected)
+* Dashboard reflects updated data
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 🧠 Key Learning
 
-For end-to-end (e2e) testing, run:
+* Angular Component Architecture
+* Reactive Forms & Validation
+* API Integration using HttpClient
+* Observables & Async Data Handling
+* Component Communication
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🚀 Future Enhancements
 
-## Additional Resources
+* 🔐 JWT Authentication with Interceptors
+* 👥 Role-based access control
+* ☁️ Real database (MongoDB / Firebase)
+* 📧 Email notification system
+* 📱 Responsive UI
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 🏆 Why This Project Matters
+
+This project demonstrates:
+
+* Real-world CRUD operations
+* Frontend + API integration
+* Admin/User workflow logic
+* Production-like structure
+
+
