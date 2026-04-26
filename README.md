@@ -7,8 +7,7 @@ This application allows employees to request leave and enables admins to manage 
 
 ## 🚀 Live Demo
 
-*(Add your deployed link here later — Netlify / Vercel / Firebase)*
-
+*https://employee-leave-management-ten.vercel.app/
 ---
 
 ## 📸 Screenshots
