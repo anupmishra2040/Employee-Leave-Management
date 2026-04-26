@@ -1,0 +1,661 @@
+{
+  "empolyee": [
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-11",
+      "toDate": "2026-04-20",
+      "reason": "123cvv",
+      "id": "VkfUYg8H59Y"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "",
+      "toDate": "",
+      "reason": "123cvv",
+      "id": "OXqSjQ9uIgk",
+      "status": "rejected"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "A8nfAHIL1f0",
+      "status": "approved"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-28",
+      "reason": "fds",
+      "id": "VgI17R0pP7k"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-06",
+      "toDate": "2026-04-22",
+      "reason": "asdfghjkl",
+      "id": "3yKW2V2lMxg",
+      "status": "rejected"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-17",
+      "toDate": "2026-04-29",
+      "reason": "fgfdxz",
+      "id": "lf96QHLjpuA",
+      "status": "approved"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-29",
+      "reason": "bnm,",
+      "id": "jWx-KalPukE",
+      "status": "rejected"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-08",
+      "reason": ",,",
+      "id": "_S2vdCNxqZU",
+      "status": "rejected"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-22",
+      "toDate": "2026-04-21",
+      "reason": "vfv",
+      "id": "8MEVtkcKbPk",
+      "status": "rejected"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-26",
+      "toDate": "2026-04-21",
+      "reason": "fever",
+      "id": "BWxS1aRXYzY",
+      "status": "pending"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-18",
+      "toDate": "2026-04-10",
+      "reason": "ddf",
+      "id": "9ruuvP9ktzk"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "sick",
+      "fromDate": "2026-04-14",
+      "toDate": "2026-04-13",
+      "reason": "3456",
+      "id": "pKa2_9DvOjI"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "sick",
+      "fromDate": "2026-04-30",
+      "toDate": "2026-05-05",
+      "reason": "fever",
+      "id": "Ck2e4b5TA4Y"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-20",
+      "toDate": "2026-05-03",
+      "reason": "xcfvgh",
+      "id": "bdvF36F2OS0"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "sick",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-28",
+      "reason": "fever",
+      "id": "rbCuecC4dWk"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-04-23",
+      "reason": "fever",
+      "id": "_UcZpVzD2Q8"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "8ROKeAmG1sU"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "4XEauJiZgvs"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "Ha0YU82ofTA"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "Kf8p2FZfkeI"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "EBxwc6u7Lxk"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "RxVWXFD5YzQ"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "7E7litm8V4A"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-23",
+      "toDate": "2026-04-24",
+      "reason": "fever",
+      "id": "bgSuvLfp6U0"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "7jqi1DyWIKs"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "QwEt-6z1xKQ"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "wPGNmu_M-9Q"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "qdsDyL11a24"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "qyUezrQqT4U"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "ipIfUMuNils"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "gBFEUYeFXdA"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "njBluA7gBHs"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "ObjpXhUYjQM"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "OEc7Yf9rfo4"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "h2xscBtuYEo"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "n4_NDFML3po"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "dXM846BuA4Y"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-25",
+      "reason": "fever",
+      "id": "hxxtRzGWNbU"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-23",
+      "reason": "xcfvgh",
+      "id": "4ssw6dYp9WQ"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-23",
+      "reason": "xcfvgh",
+      "id": "H5PYE_ahp5Q"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-23",
+      "reason": "xcfvgh",
+      "id": "J5dajPz5bhY"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-23",
+      "reason": "xcfvgh",
+      "id": "H9CGTk25I6k"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-23",
+      "reason": "xcfvgh",
+      "id": "zz8x6uDWLME"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-24",
+      "toDate": "2026-04-25",
+      "reason": "ddf",
+      "id": "CfqQHxDyE_I"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-24",
+      "toDate": "2026-04-25",
+      "reason": "ddf",
+      "id": "ol_efCsekW8"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-24",
+      "toDate": "2026-04-25",
+      "reason": "ddf",
+      "id": "SZxVwSzL7n8"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "5Ng3iNEF5ls"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "ymw8whUAJfI"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "edqXFYfa9AY"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "ROHZumczGMo"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "xxa6kY5CtiA"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "Vcn8tD8G5U4"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "9wNnzRTWvUs"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "2vmw8Q5Yr60"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "snnq2U5M2Ec"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "RPP6bz7rqsY"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "USt6iG7N5oU"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "pVOHhejKQRw"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "CxudlY88wnc"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "8FtzBSKGq5A"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "rNHEqHMQFmA"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "casual",
+      "fromDate": "2026-04-25",
+      "toDate": "2026-04-21",
+      "reason": "xcfvgh",
+      "id": "gG8_Hwx8g8o"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-24",
+      "toDate": "2026-04-29",
+      "reason": "fds",
+      "id": "q2316HNyLxE"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-24",
+      "toDate": "2026-04-29",
+      "reason": "fds",
+      "id": "bBwuutBDfMg"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "earned",
+      "fromDate": "2026-04-24",
+      "toDate": "2026-04-29",
+      "reason": "fds",
+      "id": "_2Dif386YPo"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "LZxHsE6Saww"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "w-9RJVNSZsA"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "bAng4OEnbmg"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "wyab1QvQOe4"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "ygCdEjQyss0"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "nG1fCCtimwo"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "EdIWZr9mrl8"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "50pBdmufLFs"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "GvEqvYr098s"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "40TpNvIdzjw"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "rxREWhbD2cQ"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "sLHN3yVRBj8"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "Dx_RHwuhAtg"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "4KN7m252vW0"
+    },
+    {
+      "employeeName": "Dipanjan",
+      "leave_type": "earned",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-05-02",
+      "reason": "xcfvgh",
+      "id": "m8bpq0bEjcs"
+    },
+    {
+      "employeeName": "Anup",
+      "leave_type": "casual",
+      "fromDate": "2026-05-01",
+      "toDate": "2026-04-29",
+      "reason": "due to fever",
+      "id": "CWcj4P6wABg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

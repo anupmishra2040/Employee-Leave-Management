@@ -1,0 +1,52 @@
+<h1>admin Dashboard</h1>
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>employeeName</th>
+        <th>leave_type</th>
+        <th>From date</th>
+        <th>To Date</th>
+        <th>Reason</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (employee of employees(); track employee.id) {
+        <tr>
+          <td>{{ employee.employeeName }}</td>
+          <td>{{ employee.leave_type }}</td>
+          <td>{{ employee.fromDate }}</td>
+
+          <td>{{ employee.toDate }}</td>
+          <td>{{ employee.reason }}</td>
+          <td>
+            <button
+              class="btn-Approved"
+              [class.approved]="employee.status === 'approved'"
+              (click)="changeStatus(employee, 'approved')"
+            >
+              Approved
+            </button>
+
+            <button
+              class="btn-pending"
+              [class.pending]="employee.status === 'pending'"
+              (click)="changeStatus(employee, 'pending')"
+            >
+              Pending
+            </button>
+
+            <button
+              class="btn-Rejected"
+              [class.rejected]="employee.status === 'rejected'"
+              (click)="changeStatus(employee, 'rejected')"
+            >
+              Rejected
+            </button>
+          </td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

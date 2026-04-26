@@ -1,0 +1,53 @@
+<h1>Dashboard</h1>
+
+<div class="card">
+  <div class="form-card">
+    <h2>Apply For Leave</h2>
+
+    <form [formGroup]="leavesForm" (ngSubmit)="leavesdata()">
+      <div class="form-group">
+        <label for="employeeName">Name :</label>
+        <input
+          id="employeeName"
+          type="text"
+          placeholder="Enter Employee Name"
+          formControlName="employeeName"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="leaveType">Leave Type :</label>
+        <select  id="leaveType" formControlName="leave_type" >
+          <option value="" disabled selected hidden>Choose an option</option>
+          <option value="sick">Sick</option>
+          <option value="casual">Casual</option>
+          <option value="earned">Earned</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="fromDate">From Date :</label>
+        <input id="fromDate" type="date" formControlName="fromDate" [min]="todayDate" />
+      </div>
+
+      <div class="form-group">
+        <label for="toDate">To Date :</label>
+        <input id="toDate" type="date" formControlName="toDate" [min]="todayDate" />
+      </div>
+
+      <div class="form-group">
+        <label for="reason">Reason :</label>
+        <input id="reason" type="text" formControlName="reason" />
+      </div>
+
+      <button [disabled]="leavesForm.invalid" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="leaves-history">
+    <p>Total Leaves: {{ employeesStatus().length }}</p>
+<p>Pending: {{ employeesStatus().filter(current => current.status === 'pending').length }}</p>
+<p>Approved: {{ employeesStatus().filter(current => current.status === 'approved').length }}</p>
+<p>Rejected: {{ employeesStatus().filter(current => current.status === 'rejected').length }}</p>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+
+<div class="adminlogin">
+    <div class="login-container">
+  <h2>Admin LogIn</h2>
+<form class="loginForm" [formGroup]="adminloginForm" (ngSubmit)="loginbtn()">
+  <input type="text" name="email" placeholder="email" formControlName="email" />
+  
+  <input type="password" name="password" placeholder="password" formControlName="password" />
+ 
+  <button type="submit" [disabled]="adminloginForm.invalid" >Log In</button>
+</form>
+</div>
+</div>
+

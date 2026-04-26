@@ -1,0 +1,105 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d7d8ee, #7b4bb7);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div {
+  width: 95%;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background: #546de5;
+  color: white;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+
+tbody tr:nth-child(even) {
+  background: #f5f6fa;
+}
+
+tbody tr:hover {
+  background: #dfe4ff;
+  transition: 0.2s;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+button {
+  padding: 6px 12px;
+  margin: 4px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: gray;
+  cursor: pointer;
+}
+
+.btn-Approved:hover {
+  background: #63bd4f;
+}
+
+.btn-pending:hover {
+  background: #d3d892;
+}
+
+.btn-Rejected:hover {
+  background: #dc6f6f;
+}
+
+.approved {
+  background: green !important;
+}
+
+.pending {
+  background: orange !important;
+}
+
+.rejected {
+  background: red !important;
+}
+.approved {
+  background: green;
+}
+
+.rejected {
+  background: red;
+}
+
+.pending {
+  background: orange;
+}

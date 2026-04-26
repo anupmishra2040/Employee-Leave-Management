@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+:host {
+  display: block;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d7d8ee, #7b4bb7);
+}
+
+h1 {
+  text-align: center;
+  padding: 18px;
+  font-size: 34px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #7d84b8, #6b35a7);
+  color: #000;
+  margin: 0;
+}
+
+.card {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-card,
+.leaves-history {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.form-card h2,
+.leaves-history h2 {
+  font-size: 22px;
+  margin-bottom: 22px;
+  color: #111;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.form-group label {
+  width: 140px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+
+.form-group input,
+.form-group select {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  background: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #5a67d8;
+  box-shadow: 0 0 6px rgba(90, 103, 216, 0.3);
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #546de5;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3f5ad6;
+}
+
+button:disabled {
+  background: #9aa7e8;
+  cursor: not-allowed;
+}
+
+.leaves-history  {
+  font-size: 20px;
+  margin-bottom: 14px;
+  color: #111;
+  font-weight: 500;
+font-family: 'Courier New', Courier, monospace;
+}
+
